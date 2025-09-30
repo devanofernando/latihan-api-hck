@@ -23,7 +23,7 @@ def getConnection():
 @app.get('/')
 def getWelcome():
     return {
-        "msg": "sample-fastapi-pg"
+        "msg": "Hey There"
     }
 
 # endpoint - mengambil data dari database
